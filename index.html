@@ -1,14 +1,23 @@
 <html>
     <head>
+				<link rel="preconnect" href="https://fonts.googleapis.com">
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+					rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-			<div class="main-cointainer">
-					<h1>Generate a random password</h1>
-					<h2>Never use an insecure password again.</h2>
-					<button id="generate-btn" onclick="generatePasswords()"> Generate passwords</button>
-					<button id="password-one">test</button>
-					<button id="password-two">test</button>
+			<div class="main-container">
+					<h1>Vygeneruj si své</br><span>nové heslo</span></h1>
+					<h2>Už nikdy nepoužívej slabá hesla</h2>
+					<button id="generate-btn" onclick="generatePasswords()"> Generovat hesla</button>
+					<hr>
+					<div class="button-container">
+							<button class="passwords" id="password-one"></button>
+							<button class="passwords" id="password-two"></button>
+					</div>
+
 					<script src="index.js"></script>
 			</div>
     </body>
